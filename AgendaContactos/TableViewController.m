@@ -116,7 +116,7 @@
         if ([self.tableView isEditing]) {
             
             [self.tableView setEditing:NO];
-            self.botonEditar.title=@"Edit";
+            self.botonEditar.title=@"Editar";
             [self.botonEditar setStyle:UIBarButtonItemStyleBordered];
 
         }else{

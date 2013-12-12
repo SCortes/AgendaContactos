@@ -106,17 +106,12 @@
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSLog(@"Selecciono una casilla");
-}
-
 - (IBAction)actionBotonEditar:(id)sender {
            
         if ([self.tableView isEditing]) {
             
             [self.tableView setEditing:NO];
-            self.botonEditar.title=@"Editar";
+            self.botonEditar.title=@"Edit";
             [self.botonEditar setStyle:UIBarButtonItemStyleBordered];
 
         }else{
